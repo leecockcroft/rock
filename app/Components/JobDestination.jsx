@@ -44,7 +44,14 @@ export default function JobDestination() {
   }}
 >
 
-            <h3 className="text-4xl font-bold uppercase "style={{ fontFamily: "var(--font-barlow)" }}>{item.title}</h3>
+  <h3
+  className="text-4xl font-bold uppercase"
+  style={{ fontFamily: "var(--font-barlow)" }}
+>
+  {item.title}
+</h3>
+
+
             <p className="text-lg" style={{ fontFamily: "var(--font-comfortaa)" }} className="text-center">Looking for a job in {item.title}</p>
             <p className="text-lg"  style={{ fontFamily: "var(--font-comfortaa)" }} className="text-center">Rock Recruiters are proud to source jobs in {item.title}</p>
 
