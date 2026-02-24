@@ -6,21 +6,21 @@ export default function JobDestination() {
     {
       id: 1,
       title: 'Malaga',
-      url: "#malaga",
+      url: "#Malaga",
       image: "/images/malaga.webp",
       gradient: "linear-gradient(45deg, rgba(155,71,138,0.8), rgba(0,0,0,0.8))"
     },
     {
       id: 2,
       title: "Gibraltar",
-      url: "#gibraltar",
+      url: "#Gibraltar",
       image: "/images/gib.webp",
       gradient: "linear-gradient(135deg, rgba(0, 0, 0, 1) 0, rgba(0, 206, 195, .8) 100%)"
     },
     {
       id: 3,
       title: "SotoGrande",
-      url: "#sotogrande",
+      url: "#Sotogrande",
       image: "/images/soto.webp",
       gradient: "linear-gradient(45deg,rgba(155,71,138,1) 0,rgba(0,0,0,1) 100%)"
     }

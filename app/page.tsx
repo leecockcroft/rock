@@ -3,6 +3,9 @@ import Nav from "./Components/Nav"
 import Header from "./Components/Header"
 import JobDestination from "./Components/JobDestination"
 import JobSpec from "./Components/JobSpec"
+import JobSpecMalaga from "./Components/JobSpecMalaga"
+import JobSpecSoto from "./Components/JobSpecSoto"
+import About from "./Components/About"
 import SectionTitles from "./Components/SectionTitles"
 import './globals.css'
 
@@ -16,8 +19,15 @@ export default function Home() {
         <h1 className="text-center p-8 text-2xl "style={{ fontFamily: "var(--font-barlow)" }} >WELCOME TO <span className="text-[var(--text-green)]">ROCK RECRU</span><span className="text-[var(--text-purple)]">IT</span><span className="text-[var(--text-green)]">ERS</span></h1>
         </div>
         <JobDestination/>
-        <SectionTitles title="Gibraltar" textColor="rgb(0, 206, 195)"/>
+        <SectionTitles active={true} title="Gibraltar" textColor="rgb(0, 206, 195)"/>
         <JobSpec/>
+          <SectionTitles active={true} title="Malaga" textColor="#9b478a"/>
+
+        <JobSpecMalaga/>
+        <SectionTitles  active={true} title="Sotogrande" textColor="rgb(0, 206, 195)"/>
+        <JobSpecSoto/>
+       <SectionTitles title="About Us" textColor="rgb(0, 206, 195)"/>
+        <About/>
     </div>
   );
 }
